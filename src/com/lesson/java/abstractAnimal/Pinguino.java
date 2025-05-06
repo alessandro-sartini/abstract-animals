@@ -1,6 +1,8 @@
 package com.lesson.java.abstractAnimal;
 
-public class Pinguino extends AbstractAnimal{
+import com.lesson.java.abstractAnimal.swim.Nutatore;
+
+public class Pinguino extends AbstractAnimal implements Nutatore{
 
     @Override
     public void verso() {
@@ -10,6 +12,10 @@ public class Pinguino extends AbstractAnimal{
     @Override
     public void mangia() {
         System.out.println("il pinguino mangia raglie");
+    }
+    @Override
+    public void nuota() {
+        System.out.println("sto nuotando!!!");
     }
 
  

@@ -1,6 +1,8 @@
 package com.lesson.java.abstractAnimal;
 
-public class Cane extends AbstractAnimal {
+import com.lesson.java.abstractAnimal.swim.Nutatore;
+
+public class Cane extends AbstractAnimal implements Nutatore{
 
 
     @Override
@@ -11,6 +13,11 @@ public class Cane extends AbstractAnimal {
     @Override
     public void mangia() {
         System.out.println("il Cane e' carnivoro");
+    }
+
+    @Override
+    public void nuota() {
+        System.out.println("sto nuotando!!!");
     }
 
 }
