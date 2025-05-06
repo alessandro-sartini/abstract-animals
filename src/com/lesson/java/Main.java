@@ -10,11 +10,11 @@ import com.lesson.java.interfaceFly.Volante;
 
 public class Main {
 
-    public static void vola(Volante animale){
+    public static void faiVolare(Volante animale){
         animale.vola();
     }
 
-    public static void nuota(Nutatore animale){
+    public static void faiNuotare(Nutatore animale){
         animale.nuota();
     }
 
@@ -38,10 +38,10 @@ public class Main {
         Volante passerotto = new Passerotto();
         Nutatore pinguino = new Pinguino();
         Nutatore cane = new Cane();
-        vola(passerotto);
-        vola(aquila);
-        nuota(cane);
-        nuota(pinguino);
+        faiVolare(passerotto);
+        faiVolare(aquila);
+        faiNuotare(cane);
+        faiNuotare(pinguino);
 
        
 
