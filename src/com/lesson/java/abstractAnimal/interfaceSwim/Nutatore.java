@@ -1,4 +1,4 @@
-package com.lesson.java.abstractAnimal.swim;
+package com.lesson.java.abstractAnimal.interfaceSwim;
 
 public interface Nutatore {
 
