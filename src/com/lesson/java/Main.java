@@ -34,14 +34,14 @@ public class Main {
         bobby.mangia();
 
 
-        Volante aquila = new Aquila();
+        // Volante aquila = new Aquila();
         Volante passerotto = new Passerotto();
-        Nutatore pinguino = new Pinguino();
-        Nutatore cane = new Cane();
+        // Nutatore pinguino = new Pinguino();
+        // Nutatore cane = new Cane();
         faiVolare(passerotto);
-        faiVolare(aquila);
-        faiNuotare(cane);
-        faiNuotare(pinguino);
+        faiVolare(usa);
+        faiNuotare(bobby);
+        faiNuotare(pingu);
 
        
 
