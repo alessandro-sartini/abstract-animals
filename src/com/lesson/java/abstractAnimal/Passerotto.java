@@ -1,6 +1,6 @@
 package com.lesson.java.abstractAnimal;
 
-import com.lesson.java.abstractAnimal.interfaceFly.Volante;
+import com.lesson.java.interfaceFly.Volante;
 
 public class Passerotto extends AbstractAnimal implements Volante {
 

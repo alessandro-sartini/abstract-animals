@@ -1,6 +1,6 @@
 package com.lesson.java.abstractAnimal;
 
-import com.lesson.java.abstractAnimal.interfaceSwim.Nutatore;
+import com.lesson.java.interfaceSwim.Nutatore;
 
 public class Pinguino extends AbstractAnimal implements Nutatore{
 
